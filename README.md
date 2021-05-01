@@ -20,7 +20,7 @@ According to Forbes, fraud costs merchants and estimate $190 billion each year. 
 
 4. Use the search bar to navigate to SageMaker. On the lefthand column click notebook instances and then "open in jupyter".
 
-5. The notebooks created are to be run sequentially in order. Notebook 5 is a cleanup notebook that should not be run until you are finished. Due to an error that occurs using the template provided by pmhargis-aws, we have provided a modified the template to be more accomodating. This does however limit the allocated processing power from what the original template expected. As a result, we recommend replacing notebooks 2 and 3 with the ones provided in the repository as they have also been modified, in order to work more efficiently with the new template limitations.
+5. The notebooks created are to be run sequentially. Notebook 5 is a cleanup notebook that should not be run until you are finished. Due to an error that occurs using the template provided by pmhargis-aws, we have provided a modified template to be more accomodating. This does however limit the allocated processing power from what the original template expected. As a result, we recommend replacing notebooks 2 and 3 with the ones provided in the repository as they have also been modified, in order to work more efficiently with the new template limitations.
 
 6. Once you are done with the tutorial, run notebook 5. In addition you will need to once again navigate to CloudFormation and delete the stack to avoid being charged.
 
