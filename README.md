@@ -6,7 +6,7 @@ According to Forbes, fraud costs merchants and estimate $190 billion each year. 
 
 
 # Implementation:
-1. Click this link to access AWS CloudFormation: https://us-east-2.console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/create/template 
+1. Follow this link to access AWS CloudFormation: https://us-east-2.console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/create/template 
     In case of errors, simply open up your aws console and navigate to CloudFormation. In CloudFormation select the "Create Stack" option.
     
 2. In the create stack prompt, select upload template. The template is available in this repository.
