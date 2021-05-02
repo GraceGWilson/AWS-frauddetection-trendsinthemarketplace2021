@@ -22,7 +22,20 @@ According to Forbes, fraud costs merchants and estimate $190 billion each year. 
 
 5. The notebooks created are to be run sequentially. Notebook 5 is a cleanup notebook that should not be run until you are finished. Due to an error that occurs using the template provided by pmhargis-aws, we have provided a modified template to be more accomodating. This does however limit the allocated processing power from what the original template expected. As a result, we recommend replacing notebooks 2 and 3 with the ones provided in the repository as they have also been modified, in order to work more efficiently with the new template limitations.
 
-6. Once you are done with the tutorial, run notebook 5. In addition you will need to once again navigate to CloudFormation and delete the stack to avoid being charged.
+# Cloud Watch Analysis
+
+6. At the end of notebook 4, you are provided with a link to monitor your results in Amazon Cloudwatch. Navigate to the insights tab on the lefthand column. CloudWatch offers a built in querying solution to create basic insights of your streaming events. While not as capable as Amazon QuickSight, these basic results can be an important first step in monitoring the health of your system as well as your implemented solution. An example query and its output can be viewed below.
+
+To generate the query, run
+
+
+
+![](images/First_query.png)
+
+Query output
+![](images/query_result.png)
+
+7. Once you are done with the tutorial, run notebook 5. In addition you will need to once again navigate to CloudFormation and delete the stack to avoid being charged.
 
 # Links to Project
 
